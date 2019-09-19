@@ -14,7 +14,7 @@ A Command Line Tic Tac Toe Game
  + ruby lib/main.rb
 
 # Live Version
-####  URL: [Play the Game](https://repl.it/@saintaze/Tic-Tac-Toe)
+####  URL: [Play the Game](https://repl.it/@saintaze/Tic-Tac-Toe-Testing)
 
 # Author
 + Saintaze [@saintaze](https://github.com/saintaze/)
