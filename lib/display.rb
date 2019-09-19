@@ -50,12 +50,10 @@ class Display
   def display_win_message(current_player)
     puts "Congrats!\n".blink_fast.cyan +  current_player.name.brown.bold + " you won the game!"; puts
     puts "game end".upcase
-    true 
   end
 
   def display_draw_message
     puts "Game is Draw!".blink_slow.cyan
-    true
   end
 
   def display_name_question(player)
