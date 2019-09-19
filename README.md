@@ -11,7 +11,7 @@ A Command Line Tic Tac Toe Game
 
 ### Run
  + bundle install
- + ruby bin/main.rb
+ + ruby lib/main.rb
 
 # Live Version
 ####  URL: [Play the Game](https://repl.it/@saintaze/Tic-Tac-Toe)
