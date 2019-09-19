@@ -1,19 +1,17 @@
 # Tic-Tac-Toe-With-Testing
 A Command Line Tic Tac Toe Game
 
-##### Built With
+### Built With
 + Ruby
 + RSpec
 
-##### Installation
-
-###### Requirement
+### Requirement
  + Ruby 2.5.0+
  + Rspec 3.8.0
 
-###### Run
+### Run
  + bundle install
- + ruby bin/main.rb
+ + ruby lib/main.rb
 
 # Live Version
 ####  URL: [Play the Game](https://repl.it/@saintaze/Tic-Tac-Toe)
