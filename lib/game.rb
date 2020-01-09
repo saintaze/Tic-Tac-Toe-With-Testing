@@ -38,7 +38,7 @@
     option == 'Y'
   end
 
-  private 
+  # private 
 
   def init_player_info
     display.create_line_breaks(2)
@@ -72,8 +72,10 @@
   def game_draw?
     if board.cells_with_marks.none? {|cell| cell.nil?}
       puts; display.draw_cells_with_marks(board.cells_with_marks); puts
-      return display.display_draw_message
+      display.display_draw_message
+      return true
     end
+    false
   end
 
   def game_won? 
@@ -81,7 +83,8 @@
       comb_found = comb.all? {|val| self.current_player.moves.include?(val)}
       if comb_found
         puts; display.draw_cells_with_marks(board.cells_with_marks); puts
-        return display.display_win_message(current_player)
+        display.display_win_message(current_player)
+        return true
       end 
     end
     false
