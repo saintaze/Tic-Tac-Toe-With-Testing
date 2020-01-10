@@ -1,5 +1,5 @@
 # Tic-Tac-Toe-With-Testing
-A Command Line Tic Tac Toe Game
+It is a command line tic tac toe game with Rspec testing.
 
 ### Built With
 + Ruby
@@ -14,8 +14,8 @@ A Command Line Tic Tac Toe Game
  + ruby lib/main.rb
 
 # Live Version
-####  URL: [Play the Game](https://repl.it/@saintaze/Tic-Tac-Toe-Testing)
+####  URL: [Play Tic Tac Toe](https://repl.it/@saintaze/Tic-Tac-Toe-Testing)
 
 # Author
-+ Saintaze [@saintaze](https://github.com/saintaze/)
+Saintaze [@saintaze](https://github.com/saintaze/)
 
